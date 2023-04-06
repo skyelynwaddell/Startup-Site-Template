@@ -1,0 +1,45 @@
+html,
+body {
+    background: url(space.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.maintext {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.carosel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    flex-shrink: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    padding-right: 20px;
+    padding-left: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: auto;
+    font-size: 120%;
+}
